@@ -1,0 +1,22 @@
+{
+  "name": "tag-image-local",
+  "version": "1.0.0",
+  "description": "Local image reverse tool: scan dir -> convert+compress JPG (<=500KB) -> Ollama vision describe -> append same-name txt",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ollama",
+    "image",
+    "vision",
+    "sharp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@img/sharp-win32-x64": "^0.35.3",
+    "sharp": "^0.35.3"
+  }
+}
