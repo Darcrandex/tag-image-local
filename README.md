@@ -26,7 +26,7 @@ node index.js <图片文件夹> [选项]
 
 | 选项 | 说明 | 默认 |
 |------|------|------|
-| `-m, --model` | Ollama 视觉模型名 | `orcarouter/Qwen3.8-27B-Uncensored` |
+| `-m, --model` | Ollama 视觉模型名 | `huihui_ai/Qwen3.8-abliterated` |
 | `-b, --base-url` | Ollama 服务地址 | `http://localhost:11434` |
 | `--max-kb` | 目标文件大小上限（KB） | `500` |
 | `-o, --out` | 输出文件夹 | `<图片目录>/output` |
